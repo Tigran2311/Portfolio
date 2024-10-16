@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.light #modul{
+    position: relative;
+    background:  linear-gradient(#102F5F, #3784D2);
+
+}
+.light .menyu_block .menyu_block{
+    text-align: center;
+}
+.light .menyu_block .menyu{
+    width: 90%;
+    margin: 0px auto;
+    padding: 28px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.light .menyu_block .menyu .logo a{
+    font-family: 'Bauhaus 93', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+    line-height: 43.81px;
+    cursor: pointer;
+}
+
+.light .menyu_block nav ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    flex-wrap: wrap;
+
+}
+.light .menyu_block nav ul li{
+    list-style: none;
+}
+.light .menyu_block nav ul li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.light .menyu_block .righth_titl{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.48px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'SF Pro Display', sans-serif;
+}
+.light .menyu_block .righth_iqn{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.light .menyu_block .righth_iqntwo{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+.light .menyu_block .menyu_block_titl{
+    
+    padding-top: 180px;
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    Line-height: 42.96px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'SF Pro Display', sans-serif;
+}
+.light .menyu_block .menyu_block_titl span{
+    font-weight: 700;
+     font-size: 36px;
+     Line-height: 42.96px;
+     color: #FF7A00;
+     font-family: 'SF Pro Display', sans-serif;
+ }
+ .light .menyu_block .compact{
+    max-width: 65%;
+    min-height: 70px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 5px 20px 5px 5px;
+    margin-top: 103px;
+ }
+ .light .compact_btn{
+    display: flex;
+    gap: 20px;
+    outline: none;
+ }
+ .light .compact input{
+    max-width: 600px;
+    min-height: 30px;
+    background-color: rgba(217, 217, 217, 1);
+    border: none;
+    outline: none;
+}
+.light .compact_btn button{
+    width: 177px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(55, 132, 210, 1);
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.64;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    outline: none;
+    border: none;
+}
+
+/*  iqs  */
+.light .ixs{
+    width: 17px;
+    height: 17px;
+    background-color: transparent;
+}
+.light .ixsone{
+    width: 20px;
+    height: 2px;
+    border: 1px solid #ffffff;
+    rotate: 45deg;
+    background-color: #ffffff;
+    margin-top: 9px;
+    margin-left: 2px;
+}
+.light .iqstwo{
+    width: 20px;
+    height: 2px;
+    border: 1px solid #ffffff;
+    rotate: -45deg;
+    background-color: #ffffff;
+    margin-left: 1px;
+    margin-top: -2px;
+}
+
+.light .compact_btn  button img{
+    width: 17px;
+    height: 17px;
+}    
+
+.light .compactbtntwo {
+    width: 26px;
+    height: 26px;
+    background-color: rgba(217, 217, 217, 1);
+    border: none;
+}
+
+.light .buton_menyu form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 0px 111px 0px;
+ }
+ .light .buton_menyu p{
+    font-weight: 500;
+    font-size: 24px;
+    Line-height: 28.64px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'SF Pro Display', sans-serif;
+ }
+ .light .buton_menyu button{
+    width: 148px;
+    height: 30px;
+    border-radius: 5px ;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    opacity: 70%;
+    background-color: #98BADE;
+    font-family: 'SF Pro Display', sans-serif;
+    cursor: pointer;
+ }
+
+
+ /* tex_block*/
+
+ .light .tex_block{
+    min-height: 132px;
+    background-color: #C8D8E1;
+    text-align: center;
+    display: flex;
+    position: relative;
+ }
+ .light .tex_block_list{
+    margin: 0 auto;
+    max-width: 982px;
+    min-height: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    Line-height: 28.64px;
+    color: #000000;
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF Pro Display', sans-serif;
+ }
+ .light .tex_block_list span{
+    color: #3784D2;
+    font-family: 'SF Pro Display', sans-serif;
+ }
+ .light .tex_block button{
+    font-weight: 500;
+    font-size: 24px;
+    Line-height: 28.64px;
+    width: 170px;
+    height: 60px;
+    background-color: #FF7A00;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 5px;
+    font-family: 'SF Pro Display', sans-serif;
+    cursor: pointer;
+ }
+
+
+ /* open window tools*/
+
+ .light .menyu_block #window {
+    position: absolute;
+    display: none;
+    z-index: 100;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 90%; 
+    max-width: 838px;
+    min-height: 489px;
+}
+
+
+.light .menyu_block  #window .miniWindow{
+    max-width: 838px; 
+    min-height: 410px;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.light .menyu_block  #window .miniWindow p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.48px;
+    color: #255B9B;
+    margin-left: 66px;
+}
+
+.light  .menyu_block #generator {
+    margin-top: 48px;
+}
+
+.light  .menyu_block #window .miniWindow input {
+    width: 85%;
+    transform: translate(9%, -14%);
+    min-height: 50px;
+    background: transparent;
+    border: 2px solid #3784D2;
+    border-radius: 5px;
+    color: #ffffff;
+    outline: #3784D2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.28px;
+}
+
+
+
+.light  .menyu_block #window .miniWindow textarea {
+    width: 85%;
+    min-height: 150px;
+    transform: translate(9%, -14%);
+    background: transparent;
+    border: 2px solid #3784D2;
+    border-radius: 5px;
+    
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.48px;
+    color: #fff;
+    
+    outline: #3784D2;
+
+}
+
+
+
+.light  .menyu_block .blue_window {
+    background-color: #3784D2;
+    max-width: 838px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.light  .menyu_block .blue_window #orange{
+    background-color: #FF7A00;
+    width: 177px;
+    min-height: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.64px;
+    text-align: center;
+    color: #2D2D2D;
+    
+}
+.light  .menyu_block .blue_window #seriy {
+    background-color: #BDBDBD;
+    width: 177px;
+    min-height: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.64px;
+    text-align: center;
+    color: #2D2D2D;
+   
+} 
+
+
+ /* qard-block*/
+
+ .light .qard_block{
+    text-align: center;
+    background-color:  rgb(228, 236, 241);
+
+    min-height: 464px;
+   
+}
+.light .qard_block h1{
+    font-weight: 500;
+    font-size: 36px;
+    Line-height: 42.96px;
+    font-family: 'SF Pro Display', sans-serif;
+    columns: #000000;
+    padding-top: 46px;
+}
+.light .qard_block form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 46px;
+    flex-wrap: wrap;
+}
+.light .qard_block_one{
+    width: 80px;
+    height: 44px;
+    border-radius: 27px;
+    background-color: rgba(55, 132, 210, 1);
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    Line-height: 28.64px;
+    color: rgba(255, 255, 255, 1);
+
+}
+.light .qard_block_two{
+    width: 149px;
+    height: 44px;
+    border-radius: 27px;
+    border: 2px solid rgba(55, 132, 210, 1);
+    background-color:  rgb(228, 236, 241);
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    Line-height: 28.64px;
+    color: rgba(55, 132, 210, 1);
+}
+.light .qards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+
+}
+.light .qard{
+    width: 240px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 27px;
+    box-shadow: 1px 4px 15px #0000004d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.light .qard_titl{
+    width: 84px;
+    height: 84px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    Line-height: 76.28px;
+    color: rgba(55, 132, 210, 1);
+    border: 2px solid rgba(55, 132, 210, 1);
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: center;
+}
+.light .qard_date{
+    width: 84px;
+    height: 50px;
+    text-align: end;
+    font-weight: 400;
+    font-size: 16px;
+    Line-height: 19.09px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'SF Pro Display', sans-serif;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.light .qard_btn form{
+    padding: 10px 0 82px 0;
+}
+.light .qard_btn form button{
+    width: 240px;
+    height: 44px;
+    border-radius: 27px;
+    background-color: rgba(55, 132, 210, 1);
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    Line-height: 28.64px;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+
+/*  foooter menyu*/
+.footer_block {
+    background-color: #3784D2;
+}
+.light .footer_block .menyu{
+    width: 90%;
+    margin: 0px auto;
+    padding: 28px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.light .footer_block  a{
+    font-family: 'Bauhaus 93', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 43.81px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.light .footer_righth nav ul  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 25px;
+
+}
+.light .footer_righth nav ul li{
+    list-style: none;
+}
+.light .footer_righth nav ul li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.light .footer_righth .righth_titl{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35.8px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'SF Pro Display', sans-serif;
+}
+.light .footer_righth .righth_iqn{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.64px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'SF Pro Display', sans-serif;
+    cursor: pointer;
+}
+.light .footer_righth .righth_iqntwo{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.64px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'SF Pro Display', sans-serif;
+    cursor: pointer;
+}
+
+
+
+/*linear-gradient(180deg, rgba(16, 47, 95, 0.99) 0%, #3784D2 100%);*/
