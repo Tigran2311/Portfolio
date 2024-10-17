@@ -28,14 +28,14 @@ counters.forEach((item, i) => {
 
 
 
-// Получаем все изображения в панели
+
 const sidePanelImages = document.querySelectorAll(".sidepanel img");
 const promoSection = document.querySelector(".promo");
 
 const sidePanelDivider = document.querySelector(".sidepanel__divider");
 const sidePanelText = document.querySelector(".sidepanel__text span");
 
-// Пути для стандартных и белых изображений
+
 const imagePaths = {
   default: [
     "img/social/blu_Facebook.svg",    
@@ -49,22 +49,22 @@ const imagePaths = {
   ]
 };
 
-// Изначально изображения должны быть белыми
+
 sidePanelImages.forEach((img, index) => {
   img.src = imagePaths.default[index];
 });
 
-sidePanelDivider.style.backgroundColor = "white";   // Белый фон для divider
+sidePanelDivider.style.backgroundColor = "white"; 
 sidePanelText.style.color = "white"; 
 
-// Функция для проверки позиции скролла
+
 window.addEventListener("scroll", () => {
   const promoSectionTop = promoSection.getBoundingClientRect().top;
   const promoSectionBottom = promoSection.getBoundingClientRect().bottom;
 
-  // Проверяем, если секция promo находится в пределах окна
+  
   if (promoSectionBottom > 0 && promoSectionTop < window.innerHeight) {
-    // Меняем все изображения на белые
+    
     sidePanelImages.forEach((img, index) => {
       img.src = imagePaths.default[index];
     });
@@ -73,7 +73,7 @@ window.addEventListener("scroll", () => {
     sidePanelText.style.color = "white"; 
 
   } else {
-    // Меняем все изображения на черные
+    
     sidePanelImages.forEach((img, index) => {
       img.src = imagePaths.white[index];
     });
