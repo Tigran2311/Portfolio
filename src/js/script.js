@@ -69,7 +69,7 @@ window.addEventListener("scroll", () => {
       img.src = imagePaths.default[index];
     });
 
-    sidePanelDivider.style.backgroundColor = "white";   // Белый фон для divider
+    sidePanelDivider.style.backgroundColor = "white";   
     sidePanelText.style.color = "white"; 
 
   } else {
@@ -78,7 +78,7 @@ window.addEventListener("scroll", () => {
       img.src = imagePaths.white[index];
     });
 
-    sidePanelDivider.style.backgroundColor = "black";   // Черный фон для divider
+    sidePanelDivider.style.backgroundColor = "black";  
     sidePanelText.style.color = "black"; 
 
   }
